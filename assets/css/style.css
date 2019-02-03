@@ -14,3 +14,21 @@ h1{
     right:10%;
     padding-bottom:34vh
 }
+.firstname{
+    overflow: hidden; 
+    white-space: nowrap; 
+    animation: nameenter 3.5s;
+}
+.lastname{
+    overflow: hidden; 
+    white-space: nowrap; 
+    animation: nameenter 3.5s;
+    animation-delay: 3s;
+    animation-fill-mode: both;
+}
+
+/* The typing effect */
+@keyframes nameenter {
+    from { width: 0 }
+    to { width: 100% }
+}
